@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IQ5 | Privacy & Security</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/feather-icons"></script>
+  <style>
+    .hero-bg {
+      background: url('https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+      position: relative;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-700">
+
+  <!-- Hero Section (Full size) -->
+  <section class="hero-bg h-72 md:h-96 flex flex-col justify-center items-center text-center text-white relative">
+    <div class="relative z-10 max-w-3xl px-6">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">Our Privacy</h1>
+      <p class="text-lg md:text-xl mb-6">
+        Protecting Amazon data and user information is our top priority. We strictly follow SP-API policies and industry best practices.
+      </p>
+    </div>
+    <div class="absolute inset-0 bg-black opacity-60"></div>
+  </section>
+
+  <!-- Header -->
+  <header class="bg-indigo-600 text-white p-4 text-center">
+    <nav class="mt-1">
+      <a href="index.html" class="text-white mx-2 md:mx-4 hover:underline">Home</a>
+      <a href="#privacy" class="text-white mx-2 md:mx-4 hover:underline">Privacy & Security</a>
+      <a href="terms.html" class="text-white mx-2 md:mx-4 hover:underline">Terms</a>
+    </nav>
+  </header>
+
+  <!-- Privacy & Security Content (Smaller font) -->
+  <section id="privacy" class="py-10 px-4 md:px-16 max-w-4xl mx-auto space-y-5 text-sm md:text-base">
+    <h2 class="text-2xl md:text-3xl font-bold text-indigo-600">Our Privacy & Security Commitment</h2>
+
+    <div class="space-y-4">
+      <h3 class="text-xl font-semibold mt-4">1. Data Collection</h3>
+      <p>
+        IQ5 collects Amazon SP-API data only from authorized users who explicitly grant access. Unauthorized access is strictly forbidden and may result in immediate suspension and legal action.
+      </p>
+
+      <h3 class="text-xl font-semibold mt-4">2. Data Usage</h3>
+      <p>
+        Data is processed internally to provide analytics, pricing optimization, inventory management, and advertising insights. Data is never sold or shared with third parties.
+      </p>
+
+      <h3 class="text-xl font-semibold mt-4">3. Data Security</h3>
+      <ul class="list-disc ml-6">
+        <li>Encryption in transit and at rest ensures complete protection.</li>
+        <li>Access is restricted based on job responsibilities.</li>
+        <li>Credentials are never hardcoded or shared publicly.</li>
+        <li>Network security prevents unauthorized access attempts.</li>
+        <li>Protocols are regularly reviewed to meet industry best practices.</li>
+      </ul>
+
+      <h3 class="text-xl font-semibold mt-4">4. Incident Response</h3>
+      <p>
+        Any unauthorized access, breach attempt, or security incident is immediately reported to <a href="mailto:security@amazon.com" class="text-indigo-600 hover:underline">security@amazon.com</a> and mitigated according to best practices.
+      </p>
+
+      <h3 class="text-xl font-semibold mt-4">5. Legal Compliance</h3>
+      <p>
+        We comply with Amazon SP-API policies, Acceptable Use Policy, GDPR, and other applicable data protection laws. Compliance documentation is maintained and audit-ready.
+      </p>
+
+      <h3 class="text-xl font-semibold mt-4">6. User Responsibility</h3>
+      <p>
+        Authorized users must not bypass controls, redistribute data, or use Amazon information for unauthorized purposes. Misuse may result in suspension, termination, or legal consequences.
+      </p>
+
+      <p class="mt-4 font-semibold text-red-600 text-center">
+        ⚠️ Unauthorized data access or misuse is strictly monitored and reported to Amazon. Legal consequences will follow any violation.
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-6 text-center bg-gray-800 text-gray-400 text-sm">
+    <p>© 2025 IQ5 B.V. | Vinkenburgstraat 2A, 3512AB Utrecht, Netherlands</p>
+    <p>
+      <a href="privacy.html" target="_blank" class="hover:underline text-gray-300">Privacy & Security</a> | 
+      <a href="terms.html" target="_blank" class="hover:underline text-gray-300">Terms of Service</a>
+    </p>
+  </footer>
+
+  <script>feather.replace()
